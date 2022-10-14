@@ -21,7 +21,7 @@ K3 - Roadkill PWM Mod
    - 6 wires for the heater.  RKE2 uses 4 wires.  This adds an additional two to allow more for headroom.  
    - Part cooling fan and hotend fan share two wires for (+)
      - Partcooling fan has two wires for (-), which allows more current for the 4028 fan of the frostbite toolhead.
-     - My 4028 fan uses 1.3 amps at full power.
+     - My 4028 fan uses 1.3 amps at full power and some 4028s use even more.
      - Adds a line for PWM on the part cooling fan (for frostbite toolhead).
      - ***IMPORTANT*** - *Hotend fan and part cooling fan share the same voltage.*
    - Moved the heater screw terminal into the board a little bit.  You can use the stock side exiting wires or top exiting wires now without the terminal hanging off the side of the board.  
