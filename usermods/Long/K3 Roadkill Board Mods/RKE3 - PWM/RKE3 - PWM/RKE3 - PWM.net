@@ -1,0 +1,594 @@
+(export 
+  (version D) 
+  (design 
+    (source C:\Users\Michael\Documents\RoadkillElongated\RKE2\RKE2.sch) 
+    (date "23/02/2022 10:13:37 PM") 
+    (tool "Eeschema (5.1.12)-1") 
+    (sheet 
+      (number 1) 
+      (name /) 
+      (tstamps /) 
+      (title_block 
+        (title) 
+        (company) 
+        (rev) 
+        (date) 
+        (source RKE3 - PWM.sch) 
+        (comment 
+          (number 1) 
+          (value "")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value ""))))) 
+  (components 
+    (comp 
+      (ref J4) 
+      (value Conn_02x10_Odd_Even) 
+      (footprint Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_02x10_Odd_Even) 
+        (description "Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 62161241)) 
+    (comp 
+      (ref J6) 
+      (value PC_FAN2) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x02_Female) 
+        (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6216483E)) 
+    (comp 
+      (ref J1) 
+      (value Thermistor) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x02_Female) 
+        (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 62166CDC)) 
+    (comp 
+      (ref J7) 
+      (value HE_FAN1) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x02_Female) 
+        (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6216752C)) 
+    (comp 
+      (ref J10) 
+      (value X_End) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x02_Female) 
+        (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 62167AED)) 
+    (comp 
+      (ref J8) 
+      (value Neopixel) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x03_Female) 
+        (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6216847A)) 
+    (comp 
+      (ref J9) 
+      (value Probe) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x03_Female) 
+        (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 621693CE)) 
+    (comp 
+      (ref J11) 
+      (value Conn_01x03_Female) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x03_Female) 
+        (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 621695D9)) 
+    (comp 
+      (ref J5) 
+      (value PC_FAN1) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x02_Female) 
+        (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 62169FA1)) 
+    (comp 
+      (ref J3) 
+      (value Stepper) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x04_Female) 
+        (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6216A851)) 
+    (comp 
+      (ref J2) 
+      (value Heater) 
+      (footprint SamacSys_Parts:TB00250002BE) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Screw_Terminal_01x02) 
+        (description "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6216B590)) 
+    (comp 
+      (ref H1) 
+      (value MountingHole) 
+      (footprint MountingHole:MountingHole_3.2mm_M3) 
+      (datasheet ~) 
+      (libsource 
+        (lib Mechanical) 
+        (part MountingHole) 
+        (description "Mounting Hole without connection")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6217DC37)) 
+    (comp 
+      (ref H2) 
+      (value MountingHole) 
+      (footprint MountingHole:MountingHole_3.2mm_M3) 
+      (datasheet ~) 
+      (libsource 
+        (lib Mechanical) 
+        (part MountingHole) 
+        (description "Mounting Hole without connection")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6217E3F3))) 
+  (libparts 
+    (libpart 
+      (lib Connector) 
+      (part Conn_01x02_Female) 
+      (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x02_Female)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector) 
+      (part Conn_01x03_Female) 
+      (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x03_Female)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector) 
+      (part Conn_01x04_Female) 
+      (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x04_Female)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name Pin_4) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector) 
+      (part Screw_Terminal_01x02) 
+      (description "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp TerminalBlock*:*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Screw_Terminal_01x02)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_02x10_Odd_Even) 
+      (description "Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_2x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_02x10_Odd_Even)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name Pin_4) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name Pin_5) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name Pin_6) 
+          (type passive)) 
+        (pin 
+          (num 7) 
+          (name Pin_7) 
+          (type passive)) 
+        (pin 
+          (num 8) 
+          (name Pin_8) 
+          (type passive)) 
+        (pin 
+          (num 9) 
+          (name Pin_9) 
+          (type passive)) 
+        (pin 
+          (num 10) 
+          (name Pin_10) 
+          (type passive)) 
+        (pin 
+          (num 11) 
+          (name Pin_11) 
+          (type passive)) 
+        (pin 
+          (num 12) 
+          (name Pin_12) 
+          (type passive)) 
+        (pin 
+          (num 13) 
+          (name Pin_13) 
+          (type passive)) 
+        (pin 
+          (num 14) 
+          (name Pin_14) 
+          (type passive)) 
+        (pin 
+          (num 15) 
+          (name Pin_15) 
+          (type passive)) 
+        (pin 
+          (num 16) 
+          (name Pin_16) 
+          (type passive)) 
+        (pin 
+          (num 17) 
+          (name Pin_17) 
+          (type passive)) 
+        (pin 
+          (num 18) 
+          (name Pin_18) 
+          (type passive)) 
+        (pin 
+          (num 19) 
+          (name Pin_19) 
+          (type passive)) 
+        (pin 
+          (num 20) 
+          (name Pin_20) 
+          (type passive)))) 
+    (libpart 
+      (lib Mechanical) 
+      (part MountingHole) 
+      (description "Mounting Hole without connection") 
+      (docs ~) 
+      (footprints 
+        (fp MountingHole*)) 
+      (fields 
+        (field 
+          (name Reference) H) 
+        (field 
+          (name Value) MountingHole)))) 
+  (libraries 
+    (library 
+      (logical Connector) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Connector.lib")) 
+    (library 
+      (logical Connector_Generic) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Connector_Generic.lib")) 
+    (library 
+      (logical Mechanical) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Mechanical.lib"))) 
+  (nets 
+    (net 
+      (code 1) 
+      (name GNDPWR) 
+      (node 
+        (ref J2) 
+        (pin 2)) 
+      (node 
+        (ref J4) 
+        (pin 7)) 
+      (node 
+        (ref J4) 
+        (pin 5))) 
+    (net 
+      (code 2) 
+      (name +24V) 
+      (node 
+        (ref J9) 
+        (pin 1)) 
+      (node 
+        (ref J4) 
+        (pin 3)) 
+      (node 
+        (ref J2) 
+        (pin 1)) 
+      (node 
+        (ref J4) 
+        (pin 1))) 
+    (net 
+      (code 3) 
+      (name /B2) 
+      (node 
+        (ref J3) 
+        (pin 4)) 
+      (node 
+        (ref J4) 
+        (pin 13))) 
+    (net 
+      (code 4) 
+      (name /HF_V) 
+      (node 
+        (ref J7) 
+        (pin 1)) 
+      (node 
+        (ref J4) 
+        (pin 14))) 
+    (net 
+      (code 5) 
+      (name /HF_GND) 
+      (node 
+        (ref J4) 
+        (pin 16)) 
+      (node 
+        (ref J7) 
+        (pin 2))) 
+    (net 
+      (code 6) 
+      (name /GNDA) 
+      (node 
+        (ref J4) 
+        (pin 9)) 
+      (node 
+        (ref J1) 
+        (pin 2))) 
+    (net 
+      (code 7) 
+      (name /T0) 
+      (node 
+        (ref J1) 
+        (pin 1)) 
+      (node 
+        (ref J4) 
+        (pin 11))) 
+    (net 
+      (code 8) 
+      (name /A1) 
+      (node 
+        (ref J3) 
+        (pin 1)) 
+      (node 
+        (ref J4) 
+        (pin 19))) 
+    (net 
+      (code 9) 
+      (name /A2) 
+      (node 
+        (ref J3) 
+        (pin 2)) 
+      (node 
+        (ref J4) 
+        (pin 17))) 
+    (net 
+      (code 10) 
+      (name /B1) 
+      (node 
+        (ref J3) 
+        (pin 3)) 
+      (node 
+        (ref J4) 
+        (pin 15))) 
+    (net 
+      (code 11) 
+      (name /Xend_S) 
+      (node 
+        (ref J4) 
+        (pin 12)) 
+      (node 
+        (ref J10) 
+        (pin 2))) 
+    (net 
+      (code 12) 
+      (name GND) 
+      (node 
+        (ref J11) 
+        (pin 2)) 
+      (node 
+        (ref J4) 
+        (pin 2)) 
+      (node 
+        (ref J9) 
+        (pin 2)) 
+      (node 
+        (ref J10) 
+        (pin 1)) 
+      (node 
+        (ref J8) 
+        (pin 2))) 
+    (net 
+      (code 13) 
+      (name /FS_S) 
+      (node 
+        (ref J4) 
+        (pin 10)) 
+      (node 
+        (ref J11) 
+        (pin 3))) 
+    (net 
+      (code 14) 
+      (name +5V) 
+      (node 
+        (ref J8) 
+        (pin 1)) 
+      (node 
+        (ref J4) 
+        (pin 4)) 
+      (node 
+        (ref J11) 
+        (pin 1))) 
+    (net 
+      (code 15) 
+      (name /LED_DIN) 
+      (node 
+        (ref J8) 
+        (pin 3))) 
+    (net 
+      (code 16) 
+      (name /Probe_S) 
+      (node 
+        (ref J9) 
+        (pin 3)) 
+      (node 
+        (ref J4) 
+        (pin 8))) 
+    (net 
+      (code 17) 
+      (name /PC_V) 
+      (node 
+        (ref J6) 
+        (pin 1)) 
+      (node 
+        (ref J5) 
+        (pin 1)) 
+      (node 
+        (ref J4) 
+        (pin 18))) 
+    (net 
+      (code 18) 
+      (name /PC_GND) 
+      (node 
+        (ref J5) 
+        (pin 2)) 
+      (node 
+        (ref J6) 
+        (pin 2)) 
+      (node 
+        (ref J4) 
+        (pin 20))) 
+    (net 
+      (code 19) 
+      (name "Net-(J4-Pad6)") 
+      (node 
+        (ref J4) 
+        (pin 6)))))
