@@ -3,10 +3,10 @@ K3 - Roadkill PWM Mod
 **THIS BOARD IS FOR *K3 only*.**  
 ***IMPORTANT*** - *Hotend fan and part cooling fan share the same voltage.*
 <table width=100%>
-<TR><TD width=50%><img src="images/rke3-pwm.jpg"></TD>
-       <TD width=50%><img src="images/combined.png"></TD></TR>
-<TR><TD width=50%><img src="images/front.png"></TD>
-       <TD width=50%><img src="images/back.png"></TD></TR>       
+<TR><TD width=50%><img src="Images/rke3-pwm.jpg"></TD>
+       <TD width=50%><img src="Images/combined.png"></TD></TR>
+<TR><TD width=50%><img src="Images/front.png"></TD>
+       <TD width=50%><img src="Images/back.png"></TD></TR>       
 </TABLE>
 
 **Acknolwedgement:**
