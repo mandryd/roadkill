@@ -1,4 +1,4 @@
-K3 - Roadkill PWM Mod
+Roadkill - K3 Frostbite PWM Mod
 ============
 **THIS BOARD IS FOR *K3 only*.**  
 ***IMPORTANT*** - *Hotend fan and part cooling fan share the same (+) voltage.*
