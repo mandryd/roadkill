@@ -6,7 +6,9 @@ K3 - Roadkill PWM Mod
 <TR><TD width=50%><img src="Images/rke3-pwm.jpg"></TD>
        <TD width=50%><img src="Images/combined.png"></TD></TR>
 <TR><TD width=50%><img src="Images/front.png"></TD>
-       <TD width=50%><img src="Images/back.png"></TD></TR>       
+       <TD width=50%><img src="Images/back.png"></TD></TR>     
+<TR><TD width=50%><img src="Images/board_mounted.jpg"></TD>
+       <TD width=50%><img src="Images/board_with_frostbite.jpg"></TD></TR>     
 </TABLE>
 
 **Acknolwedgement:**
@@ -21,4 +23,5 @@ K3 - Roadkill PWM Mod
      - Partcooling fan has two wires for (-), which allows more current for the 4028 fan of the frostbite toolhead.
      - My 4028 fan uses 1.3 amps at full power.
      - Adds a line for PWM on the part cooling fan (for frostbite toolhead).
-   - ***IMPORTANT*** - *Hotend fan and part cooling fan share the same voltage.*
+     - ***IMPORTANT*** - *Hotend fan and part cooling fan share the same voltage.*
+   - Moved the heater screw terminal into the board a little bit.  You can use the stock side exiting wires or top exiting wires now without the terminal hanging off the side of the board.  
