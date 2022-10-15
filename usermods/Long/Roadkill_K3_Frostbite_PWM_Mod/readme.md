@@ -12,7 +12,7 @@ Roadkill - K3 Frostbite PWM Mod
 </TABLE>
 
 **Acknolwedgement:**
- - This toolhead is 100% just a mod of roadkill.  My work merely hackery compared to the initial development by Safflower.  Please give him all the credit he deserves.
+ - This board is 100% just a mod of roadkill.  My work pure hackery of the great work by Safflower.  Please give him all the credit he deserves.
  
  **Notes:**
  - The K3 doesn't use some of the features of the RKE2 board such as the omron probe and filament switch, so I streamlined the features somewhat.
@@ -20,7 +20,7 @@ Roadkill - K3 Frostbite PWM Mod
  - Changes
    - 6 wires for the heater.  RKE2 uses 4 wires.  This adds an additional two to allow more for headroom.  
    - Part cooling fan and hotend fan share two wires for (+)
-     - Partcooling fan has two wires for (-), which allows more current for the 4028 fan of the frostbite toolhead.
+     - Partcooling fan also has two wires for (-) for the frostbite 4028 fan.
      - My 4028 fan uses 1.3 amps at full power and some 4028s use even more.
      - Adds a line for PWM on the part cooling fan (for frostbite toolhead).
      - ***IMPORTANT*** - *Hotend fan and part cooling fan share the same (+) voltage.*
